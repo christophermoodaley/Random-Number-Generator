@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15705" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="131" height="61" alignment="left" text=" Label" id="5fk-3R-KeG">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </label>
+                        <button width="136" height="90" alignment="left" title="Push To Generate " id="c9L-b6-tNC">
+                            <connections>
+                                <action selector="but" destination="AgC-eL-Hgc" id="DKD-bV-5Ax"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="Button" destination="c9L-b6-tNC" id="hbq-a6-K1I"/>
+                        <outlet property="Label" destination="5fk-3R-KeG" id="yj2-gl-OzX"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="33"/>
+        </scene>
+    </scenes>
+</document>
