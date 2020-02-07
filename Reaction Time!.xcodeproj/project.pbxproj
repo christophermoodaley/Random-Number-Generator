@@ -59,7 +59,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4CF02B2F23EDACCC008C5FC0 /* Reaction Time!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reaction Time!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF02B2F23EDACCC008C5FC0 /* Random Number Gen!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Number Gen!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF02B3323EDACCC008C5FC0 /* Reaction Time! WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reaction Time! WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF02B3923EDACCC008C5FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		4CF02B3B23EDACCD008C5FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 		4CF02B3023EDACCC008C5FC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4CF02B2F23EDACCC008C5FC0 /* Reaction Time!.app */,
+				4CF02B2F23EDACCC008C5FC0 /* Random Number Gen!.app */,
 				4CF02B3323EDACCC008C5FC0 /* Reaction Time! WatchKit App.app */,
 				4CF02B4223EDACCD008C5FC0 /* Reaction Time! WatchKit Extension.appex */,
 			);
@@ -143,7 +143,7 @@
 			);
 			name = "Reaction Time!";
 			productName = "Reaction Time!";
-			productReference = 4CF02B2F23EDACCC008C5FC0 /* Reaction Time!.app */;
+			productReference = 4CF02B2F23EDACCC008C5FC0 /* Random Number Gen!.app */;
 			productType = "com.apple.product-type.application.watchapp2-container";
 		};
 		4CF02B3223EDACCC008C5FC0 /* Reaction Time! WatchKit App */ = {
@@ -474,9 +474,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U4U9HL57ZN;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Chrmoo.Reaction-Time-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chris-o.Randogene";
+				PRODUCT_NAME = "Random Number Gen!";
 			};
 			name = Debug;
 		};
@@ -486,9 +486,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U4U9HL57ZN;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Chrmoo.Reaction-Time-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Chris-o.Randogene";
+				PRODUCT_NAME = "Random Number Gen!";
 			};
 			name = Release;
 		};
